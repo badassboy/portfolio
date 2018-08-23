@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+.cnt {
+  display: inline-block;
+  background: #ffffff;
+  width: 100%;
+  height: 500px;
+}
+
+.cnt h3 {
+  text-align: justify;
+  color: #47d147;
+  padding-left: 80px;
+  padding-top: 30px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+address {
+  line-height: 1.6;
+  font-size: 17px;
+  margin-left: 15px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.contact-info {
+  background-color: #ffffff;
+  width: 30%;
+  height: 400px;
+  float: left;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.contact-info h4 {
+  color: #00ff55;
+  padding-left: 1%;
+  font-size: 17px;
+  text-align: center;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  width: 50%;
+  height: 400px;
+  float: left;
+  margin-top: 2%;
+}
+
+.contact-form>h4 {
+  margin-left: 5%;
+  color: #bfbfbf;
+}
+
+.form-group label {
+  margin-left: 5%;
+}
+
+.form-group input {
+  background-color: #bfbfbf;
+  width: 70%;
+  font-size: 17px;
+  height: 50px;
+  margin-left: 5%;
+}
+
+.form-group textarea {
+  background-color: #bfbfbf;
+  font-size: 17px;
+  width: 70%;
+  margin-left: 5%;
+}
+
+.btn {
+  margin-left: 50%;
+  width: 20%;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #00cc00;
+}
+
+.error {
+  color: #ff471a;
+  font-size: 15px;
+}
+
+.success {
+  color: #00b33c;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer-distributed{
+  background-color:#ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Source Code Pro', monospace;
+
+
+  padding: 45px 50px;
+  
+  height: 110px;
+  border-top: 1px solid #8c8c8c;
+  border-bottom:   1px solid #8c8c8c;
+  margin-top: 3px;
+
+
+}
+
+.footer-distributed .footer-left p{
+  color:  #8f9296;
+  font-size: 14px;
+  margin-top: -7px;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+  font-size:18px;
+  font-weight: bold;
+  color: #333333;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+  margin-top: -20px;
+}
+
+.footer-distributed .footer-right{
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-left: 3px;
+  margin-top: -10px;
+}
