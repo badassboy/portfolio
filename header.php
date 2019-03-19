@@ -8,6 +8,32 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
 		
+		<style type="text/css">
+			
+			@media only screen and (max-width: 600px) {
+				
+				
+				.description li {
+					font-size: 13px;
+				}
+
+				
+
+				.menus {
+					margin-left: 20%;
+					margin-top: 5%;
+				}
+
+				.menus li {
+					margin: 1%;
+					font-size: 13px;
+				}
+
+				
+			} 
+
+		</style>
+		
 	
 	</head>
 	<body>
